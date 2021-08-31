@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.flex-box{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*-------------- head ------------*/
+
+header{
+    height: 3.3rem;
+    width: 100%;
+   background-color:rgb(167,212,202);
+   position:fixed;
+   top:0;
+}
+nav{
+    font-family: 'Dosis', sans-serif;
+}
+
+nav .flex-box{
+    height: 3.3rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-box{
+    padding:0 2rem;
+}
+.nav-box a{
+    text-decoration: none;
+    color:rgb(105, 107, 114);
+    font-size: 1.7rem;
+}
+
+/* -------- main ------------- */
+
+#main{
+    height: 45rem;
+    width: auto;
+    background-image: url(./images/aleksandra-boguslawska-MS7KD9Ti7FQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   margin-top: 3.4rem;
+    
+}
+
+#box{
+  padding:20%;
+   width: auto 24% ;
+   background-color: rgb(234,234,234, .4);
+}
+
+/* -------- Events --------------- */
+
+#event{
+
+    height: 40rem;
+    width: auto;
+    
+}
+
+.images{
+    height: 400px;
+    width: fit-content;
+     overflow: hidden;
+}
+.images img{
+    height: 100%;
+    width: auto;
+    display: block;
+}
