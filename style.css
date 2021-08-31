@@ -3,6 +3,7 @@ body{
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
+    font-size: 1.6rem;
 }
 
 .flex-box{
@@ -48,32 +49,87 @@ nav .flex-box{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-   margin-top: 3.4rem;
+    margin-top: 3.4rem;
     
 }
 
 #box{
-  padding:20%;
-   width: auto 24% ;
-   background-color: rgb(234,234,234, .4);
+    /* border: 1px solid pink; */
+    height: 80%;
+    padding: 10% 10% 0 10% ;
+    width: 0 auto ;
+    background-color: rgb(234,234,234, .7);
+    
+
+}
+#box h2{
+    margin-top: 0;
+    font-size: 4rem;
+    font-weight: 5px;
+    font-family: 'Poiret One', cursive;
+}
+p{
+    font-weight: 5px;
+}
+/* --------- Classes ----------- */
+
+#class{
+    margin-top: 70px;
+    /* background-image: url(./images/jessica-pamp-sGRMspZmfPE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ; */
+
+}
+#class h3{
+    font-family: 'Dosis', sans-serif;
+    /* color:white */
+    
+}
+ tr, td, th{
+    border:2px solid  rgb(53,127,114);
+    height: 2.5rem;
+    width: auto;
+    padding: 15px;
+    background-color: rgba(236, 223, 223, 0.3);
+}
+th{
+    background-color: rgb(53,127,114);
+    color:rgb(229,229,229);
+
+}
+table{
+    border-spacing: 0;
+    margin: 0 auto;
 }
 
 /* -------- Events --------------- */
 
-#event{
-
+#event .flex-box{
+    margin-top: 70px;
     height: 40rem;
     width: auto;
-    
+    justify-content: center;
 }
 
 .images{
     height: 400px;
     width: fit-content;
-     overflow: hidden;
+    overflow: hidden;
 }
 .images img{
     height: 100%;
     width: auto;
     display: block;
+}
+/* -----------location--------- */
+#location{
+    margin-top: 200px;
+}
+
+
+
+/* ---------- footer ---------- */
+footer{
+    margin: 70px;
 }
