@@ -167,16 +167,14 @@ table{
         #main {
             height: 60rem;
         }
-        #box{
-
-        }
+       
          h2{
-            font-size: 3rem;
+            font-size: 5rem;
         }
          
              
          tr, td, th, p, h3 {
-             font-size: 2rem; 
+             font-size: 3rem; 
          }
 
          .images{
@@ -187,7 +185,7 @@ table{
          }
          #container{
            
-            font-size: 1.8rem;
+            font-size: 2rem;
             color:rgb(67, 68, 70);
             background-color:rgb(167,212,202);
             background-image:none;
