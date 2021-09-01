@@ -79,6 +79,8 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed ; */
+    border-bottom: 2px solid rgb(53,127,114);
+    padding-bottom:70px;
 
 }
 #class h3{
@@ -87,14 +89,14 @@ p{
     
 }
  tr, td, th{
-    border:2px solid  rgb(53,127,114);
-    height: 2.5rem;
+    border:2px solid  rgb(62,147,134);
+    height: 1.5rem;
     width: auto;
     padding: 15px;
     background-color: rgba(236, 223, 223, 0.3);
 }
 th{
-    background-color: rgb(53,127,114);
+    background-color: rgb(62,147,134);
     color:rgb(229,229,229);
 
 }
@@ -104,11 +106,15 @@ table{
 }
 
 /* -------- Events --------------- */
-
-#event .flex-box{
-    margin-top: 70px;
-    height: 40rem;
+#event{
+    height: fit-content;
     width: auto;
+    margin-top: 70px;
+    border-bottom:2px solid  rgb(62,147,134);
+    padding-bottom: 70px;
+
+}
+#event .flex-box{
     justify-content: center;
 }
 
@@ -124,12 +130,34 @@ table{
 }
 /* -----------location--------- */
 #location{
-    margin-top: 200px;
+    margin-top:10px;
+    height:500px;
+    width: auto;
+    /* border: 5px solid red; */
+    
+}
+#container{
+    /* border: 5px solid red; */
+    background: url(./images/jessica-pamp-sGRMspZmfPE-unsplash.jpg) no-repeat center/cover;
+    background-attachment: fixed; 
+    padding: 10px;
+    color:rgb(25,40,107);
+    height: 90%;
+    width: auto;
+    padding-top: 30px;
+    font-size: 35px;
+    font-weight: 10px;
+    
 }
 
 
+/* ---------- Phone screen ---------- */
 
-/* ---------- footer ---------- */
-footer{
-    margin: 70px;
+@media only screen and (min-width: 320px) and(max-width:480px){
+
+
+header{
+    height: 6.5rem;
+}
+    
 }
