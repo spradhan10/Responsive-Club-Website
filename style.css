@@ -63,7 +63,6 @@ nav .flex-box{
 
 }
 #box h2{
-    margin-top: 0;
     font-size: 4rem;
     font-weight: 5px;
     font-family: 'Poiret One', cursive;
@@ -75,17 +74,13 @@ p{
 
 #class{
     margin-top: 70px;
-    /* background-image: url(./images/jessica-pamp-sGRMspZmfPE-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:fixed ; */
     border-bottom: 2px solid rgb(53,127,114);
     padding-bottom:70px;
 
 }
 #class h3{
     font-family: 'Dosis', sans-serif;
-    /* color:white */
+    
     
 }
  tr, td, th{
@@ -110,7 +105,7 @@ table{
     height: fit-content;
     width: auto;
     margin-top: 70px;
-    border-bottom:2px solid  rgb(62,147,134);
+    /* border-bottom:2px solid  rgb(62,147,134); */
     padding-bottom: 70px;
 
 }
@@ -153,11 +148,52 @@ table{
 
 /* ---------- Phone screen ---------- */
 
-@media  (min-width: 320px) and(max-width:480px){
+@media only screen and (min-width: 320px) and (max-width:480px), (orientation:portrait){
 
-
-header{
-    height: 6.5rem;
-}
+        header{
+           height: 6.5rem;
+            
+        }
+        nav .flex-box{
+            height: 6.5rem;
+            justify-content: center;
+        }
+        .nav-box a{
+            font-size: 2rem;
+        }
     
+
+        /* ------- main ------- */
+        #main {
+            height: 60rem;
+        }
+        #box{
+
+        }
+         h2{
+            font-size: 3rem;
+        }
+         
+             
+         tr, td, th, p, h3 {
+             font-size: 2rem; 
+         }
+
+         .images{
+             height: 34rem;
+         }
+         #location{
+             height: max-content;
+         }
+         #container{
+           
+            font-size: 1.8rem;
+            color:rgb(67, 68, 70);
+            background-color:rgb(167,212,202);
+            background-image:none;
+            font-weight: bold;
+            height:fit-content;
+            padding: 30px;
+            
+         }
 }
